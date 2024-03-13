@@ -10,6 +10,18 @@ Route::get('/home', function () {
     return view('home');
 });
 
+Route::get('/coba', function () {
+    return view('coba');
+});
+
+Route::get('template', function () {
+    return view('template');
+});
+
+Route::get('tabel', function () {
+    return view('tabel');
+});
+
 Route::put('users/{id}', function ($id) {
     
 });

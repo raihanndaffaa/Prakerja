@@ -24,3 +24,7 @@ route::get('tampildata', function () {
         echo $item . '<br>';
     }
 });
+
+route::get('template', function () {
+    return view('template');
+});
